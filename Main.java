@@ -1,9 +1,8 @@
 
 /**
- * Write a description of class Main here.
+ * defines and instantiates new Fraction objects, prints all the Fraction
+ * objects, as well as runs custom methods.
  *
- * @author (your name)
- * @version (a version number or a date)
  */
 public class Main
 {
@@ -23,9 +22,9 @@ public class Main
         oneEighth.printNumDem();
         //Runs all functions
         (oneFourth.add(oneEighth)).printNumDem();
-        (oneEighth.multiply(oneEighth)).printNumDem();
-        (oneEighth.divide(oneEighth)).printNumDem();
-        (oneHalf.subtract(oneFourth)).printNumDem();
+        (oneEighth.mult(oneEighth)).printNumDem();
+        (oneEighth.div(oneEighth)).printNumDem();
+        (oneHalf.subtr(oneFourth)).printNumDem();
         System.out.println(oneFourth.convertToString());
     }
 }

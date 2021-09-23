@@ -1,9 +1,7 @@
 
 /**
- * Write a description of class Fraction here.
+ * adds, multiplies, divides, and subtracts fractions. Converts to string
  *
- * @author (your name)
- * @version (a version number or a date)
  */
 public class Fraction
 {
@@ -55,7 +53,7 @@ public class Fraction
         return Added;
     }
     //multiplies 2 fractions
-    public Fraction multiply(Fraction fraction)
+    public Fraction mult(Fraction fraction)
     {
         int newNum = numerator*fraction.numerator;
         int newDom = denominator*fraction.denominator;
@@ -64,7 +62,7 @@ public class Fraction
         
     }
     //divides 2 fractions
-    public Fraction divide(Fraction fraction)
+    public Fraction div(Fraction fraction)
     {
         int newNum = numerator*fraction.denominator;
         int newDom = denominator*fraction.numerator;
@@ -74,7 +72,7 @@ public class Fraction
         
     }
     //subtracts 2 fractions
-    public Fraction subtract(Fraction fraction)
+    public Fraction subtr(Fraction fraction)
     {
         int newNum = numerator*fraction.denominator;
         int newNum2 = fraction.numerator*denominator;
