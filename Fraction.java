@@ -85,6 +85,6 @@ public class Fraction
     }
     public String convertToString()
     {
-        return (Integer.toString(numerator)+"/"+Integer.toString(denomiter));
+        return (Integer.toString(numerator)+"/"+Integer.toString(denominator));
     }
 }
