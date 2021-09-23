@@ -10,7 +10,11 @@ VERSION or DATE: 1.15236
 HOW TO START THIS PROJECT: 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 AUTHORS: Justin and Grant
+=======
+AUTHORS: Justin and Grant And LJ
+>>>>>>> a40492cfa4bb10a513d33846eeb7f2a468143420
 =======
 AUTHORS: Justin and Grant And LJ
 >>>>>>> a40492cfa4bb10a513d33846eeb7f2a468143420
