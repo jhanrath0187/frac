@@ -83,4 +83,8 @@ public class Fraction
         return Added;
 
     }
+    public String convertToString()
+    {
+        return (Integer.toString(numerator)+"/"+Integer.toString(denomiter));
+    }
 }

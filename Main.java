@@ -24,5 +24,6 @@ public class Main
         oneEaighth.multiply(oneEaighth);
         oneEaighth.devide(oneEaighth);
         oneHalf.subtract(oneFourth);
+        System.out.println(oneFourth.convertToString());
     }
 }
