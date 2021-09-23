@@ -12,7 +12,7 @@ public class Fraction
     private int denominator;
 
     /**
-     * Constructor for objects of class FractionLJ
+     * Constructor for objects of class Fraction
      */
     //Constructs the fraction with perameters
     public Fraction(int num, int dem)
@@ -37,7 +37,6 @@ public class Fraction
     //returns the numerator
     public int getNum()
     {
-        // put your code here
         return numerator;
     }
     //returns the denomitor
@@ -65,12 +64,12 @@ public class Fraction
         
     }
     //divides 2 fractions
-    public Fraction devide(Fraction fraction)
+    public Fraction divide(Fraction fraction)
     {
         int newNum = numerator*fraction.denominator;
         int newDom = denominator*fraction.numerator;
-        Fraction Devided = new Fraction(newNum,newDom);
-        return Devided;
+        Fraction Divided = new Fraction(newNum,newDom);
+        return Divided;
         
         
     }

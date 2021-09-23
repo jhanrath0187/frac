@@ -10,19 +10,21 @@ public class Main
     public static void Main (String [] args)
     {
         //Initilises all base fractions
+        Fraction def = new Fraction();
         Fraction oneHalf = new Fraction(1,2);
         Fraction oneThird = new Fraction(1,3);
         Fraction oneFourth = new Fraction(1,4);
-        Fraction oneEaighth = new Fraction(1,8);
+        Fraction oneEighth = new Fraction(1,8);
         //Prints all base fractions
+        def.printNumDem();
         oneHalf.printNumDem();
         oneThird.printNumDem();
         oneFourth.printNumDem();
-        oneEaighth.printNumDem();
-        //Runs all our functions
-        (oneFourth.add(oneEaighth)).printNumDem();
-        (oneEaighth.multiply(oneEaighth)).printNumDem();
-        (oneEaighth.devide(oneEaighth)).printNumDem();
+        oneEighth.printNumDem();
+        //Runs all functions
+        (oneFourth.add(oneEighth)).printNumDem();
+        (oneEighth.multiply(oneEighth)).printNumDem();
+        (oneEighth.divide(oneEighth)).printNumDem();
         (oneHalf.subtract(oneFourth)).printNumDem();
         System.out.println(oneFourth.convertToString());
     }
