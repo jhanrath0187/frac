@@ -82,6 +82,7 @@ public class Fraction
         int newDom = denominator*fraction.denominator;
         Fraction Added = new Fraction(newNum+newNum2,newDom);
         return Added;
+        
 
     }
     public String convertToString()
