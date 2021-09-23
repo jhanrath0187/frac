@@ -9,12 +9,14 @@ public class Main
 {
     public static void Main (String [] args)
     {
-        //Initializes all base fractions
+        //Initilises all base fractions
+        Fraction def = new Fraction();
         Fraction oneHalf = new Fraction(1,2);
         Fraction oneThird = new Fraction(1,3);
         Fraction oneFourth = new Fraction(1,4);
         Fraction oneEighth = new Fraction(1,8);
         //Prints all base fractions
+        def.printNumDem();
         oneHalf.printNumDem();
         oneThird.printNumDem();
         oneFourth.printNumDem();
