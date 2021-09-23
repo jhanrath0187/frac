@@ -20,10 +20,10 @@ public class Main
         oneFourth.printNumDem();
         oneEaighth.printNumDem();
         //Runs all our functions
-        oneFourth.add(oneEaighth);
-        oneEaighth.multiply(oneEaighth);
-        oneEaighth.devide(oneEaighth);
-        oneHalf.subtract(oneFourth);
+        (oneFourth.add(oneEaighth)).printNumDem();
+        (oneEaighth.multiply(oneEaighth)).printNumDem();
+        (oneEaighth.devide(oneEaighth)).printNumDem();
+        (oneHalf.subtract(oneFourth)).printNumDem();
         System.out.println(oneFourth.convertToString());
     }
 }

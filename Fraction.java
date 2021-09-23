@@ -52,24 +52,26 @@ public class Fraction
         int newNum = numerator*fraction.denominator;
         int newNum2 = fraction.numerator*denominator;
         int newDom = denominator*fraction.denominator;
-        System.out.println(newNum+newNum2+"/"+newDom);
         Fraction Added = new Fraction(newNum+newNum2,newDom);
         return Added;
     }
     //multiplies 2 fractions
-    public void multiply(Fraction fraction)
+    public Fraction multiply(Fraction fraction)
     {
         int newNum = numerator*fraction.numerator;
         int newDom = denominator*fraction.denominator;
-        System.out.println(newNum+"/"+newDom);
+        Fraction Multiplied = new Fraction(newNum,newDom);
+        return Multiplied;
         
     }
     //divides 2 fractions
-    public void devide(Fraction fraction)
+    public Fraction devide(Fraction fraction)
     {
         int newNum = numerator*fraction.denominator;
         int newDom = denominator*fraction.numerator;
-        System.out.println(newNum+"/"+newDom);
+        Fraction Devided = new Fraction(newNum,newDom);
+        return Devided;
+        
         
     }
     //subtracts 2 fractions
@@ -78,7 +80,6 @@ public class Fraction
         int newNum = numerator*fraction.denominator;
         int newNum2 = fraction.numerator*denominator;
         int newDom = denominator*fraction.denominator;
-        System.out.println(newNum-newNum2+"/"+newDom);
         Fraction Added = new Fraction(newNum+newNum2,newDom);
         return Added;
 
