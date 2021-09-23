@@ -23,7 +23,7 @@ public class Main
         oneFourth.add(oneEaighth);
         oneEaighth.multiply(oneEaighth);
         oneEaighth.devide(oneEaighth);
-        oneHalf.subtract(oneFourth);
+        oneHalf.subtract(oneFourth); 
         System.out.println(oneFourth.convertToString());
     }
 }
