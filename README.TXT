@@ -4,9 +4,9 @@ Tell the reader (someone who does not know anything about this project)
 all they need to know. The comments should usually include at least:
 ------------------------------------------------------------------------
 
-PROJECT TITLE:
-PURPOSE OF PROJECT:
-VERSION or DATE:
-HOW TO START THIS PROJECT:
-AUTHORS:
+PROJECT TITLE: Fractions
+PURPOSE OF PROJECT: Make Methods
+VERSION or DATE: 1.15236
+HOW TO START THIS PROJECT: 
+AUTHORS: Justin and Grant
 USER INSTRUCTIONS:
