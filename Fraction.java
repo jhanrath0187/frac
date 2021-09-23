@@ -81,7 +81,7 @@ public class Fraction
         System.out.println(newNum-newNum2+"/"+newDom);
         Fraction Added = new Fraction(newNum+newNum2,newDom);
         return Added;
-        //Justin's not a nice guy ;p//
+        
 
     }
     public String convertToString()
