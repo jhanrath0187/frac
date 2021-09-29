@@ -27,10 +27,10 @@ public class Fraction
         denominator = 0;
     }
     //prints the fraction
-    public void printNumDem()
+    public String toString()
     {
         // put your code here
-        System.out.println(numerator+"/"+denominator);
+        return(numerator+"/"+denominator);
     }
     //returns the numerator
     public int getNum()
@@ -82,8 +82,5 @@ public class Fraction
         
 
     }
-    public String convertToString()
-    {
-        return (Integer.toString(numerator)+"/"+Integer.toString(denominator));
-    }
+    
 }
